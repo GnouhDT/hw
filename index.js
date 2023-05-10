@@ -68,3 +68,42 @@
 //     sum += i    
 // }
 // console.log(`Tổng từ 1 đến ${number} l : ${sum}.`)
+
+
+//buổi 2 
+
+
+//bài 1
+// let number = prompt('Nhập vào một số cần kiểm tra')
+
+   
+//     if(number % 3 === 0){
+//         console.log( "Số này chia hết cho 3")
+//     }
+//     else console.log("Số này không chia hết cho 3")
+
+
+//bài 2
+// let number = prompt('Nhập vào một số cần kiểm tra')
+// var a = number % 2 == 0 ? console.log('Số này là số chẵn') : console.log('Số này là số lẻ')
+
+
+//bài 3
+let number = prompt('Nhập vào một số cần kiểm tra')
+var isNumber = number >= 0 ? console.log('Số này là số dương') : console.log('Số này là số âm')
+
+
+
+//bài 4
+// let number = prompt('Nhập vào một số cần kiểm tra')
+// var isPrime = true
+// for(var i = 2; i < number - 1; i++){
+//     if( number % i == 0){
+//         isPrime = false
+//         break;
+//     }    
+// }
+// if(number < 2 || isPrime == false){ 
+//     console.log("Số này không phải là số nguyên tố")
+// }
+// else console.log("Số này là số nguyên tố")
